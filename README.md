@@ -21,3 +21,10 @@ Ou baixar o ZIP pelo GitHub e extrair.
 3. Abrir o projeto em uma IDE compatível com Swing como IntelliJ IDEA (recomendado e usado no projeto)
 
 4. Executar o Main.java
+
+
+5. Digite marca, modelo e ano nos campos de texto.
+Clique em Adicionar Veículo para salvar na lista.
+Clique em Remover após selecionar um item para remover.
+Clique em Atualizar depois de selecionar e editar os campos.
+Todos os dados ficam em memória e funcionam enquanto a aplicação estiver aberta.
