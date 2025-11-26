@@ -24,7 +24,7 @@ Ou baixar o ZIP pelo GitHub e extrair.
 
 
 5. Digite marca, modelo e ano nos campos de texto.
-6. 
+   
 Clique em Adicionar Veículo para salvar na lista.
 
 Clique em Remover após selecionar um item para remover.
