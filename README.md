@@ -24,7 +24,11 @@ Ou baixar o ZIP pelo GitHub e extrair.
 
 
 5. Digite marca, modelo e ano nos campos de texto.
+6. 
 Clique em Adicionar Veículo para salvar na lista.
+
 Clique em Remover após selecionar um item para remover.
+
 Clique em Atualizar depois de selecionar e editar os campos.
+
 Todos os dados ficam em memória e funcionam enquanto a aplicação estiver aberta.
