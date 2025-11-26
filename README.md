@@ -8,3 +8,16 @@ A classe Carro representa o Model do sistema. Ela contém os atributos privados 
 A classe CarroControlador funciona como o Controller. Ela mantém uma lista de carros em memória, utilizando ArrayList<Carro>. Nessa classe foram implementados os métodos do CRUD: adicionar(Carro), listar(), atualizar(int id, Carro carroAtualizado) e remover(int id). O ID de cada carro é gerado automaticamente por meio de um contador interno, garantindo identificadores únicos independentemente da posição do objeto na lista. O método listar() devolve uma cópia da lista, evitando modificações externas na estrutura interna.
 
 A classe TelaCarro representa a View, construída com a biblioteca Swing. A interface possui campos de texto para entrada de marca, modelo e ano, botões para adicionar, listar, atualizar e remover, e um componente JList para exibir os veículos cadastrados. Foi utilizado um DefaultListModel<Carro> para atualizar dinamicamente os itens mostrados na lista. A tela não contém lógica de negócio: ao clicar nos botões, ela apenas lê os valores digitados, cria ou atualiza objetos Carro e chama os métodos correspondentes do CarroControlador. Após cada operação, os campos são limpos e são exibidas mensagens de confirmação ou erro usando JOptionPane.
+
+COMO EXECUTAR O PROJETO?
+1. Instalar o Java (JDK 17 ou superior)
+Certifique-se de que o ambiente possui o JDK configurado no PATH.
+
+2. Clonar ou baixar o repositório
+Pelo Git:
+git clone https://github.com/seuUsuario/seuRepositorio.git
+Ou baixar o ZIP pelo GitHub e extrair.
+
+3. Abrir o projeto em uma IDE compatível com Swing como IntelliJ IDEA (recomendado e usado no projeto)
+
+4. Executar o Main.java
