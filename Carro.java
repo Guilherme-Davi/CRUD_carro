@@ -35,7 +35,7 @@ public class Carro {
     public int getId() { return id; }
 
     public String toString() {
-        return id + " - " + modelo + " - " + marca + " - " + ano;
+        return id + " - " + marca + " - " + modelo + " - " + ano;
     }
 
 
